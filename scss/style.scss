@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import 'title';
+@import 'header';
+@import 'media';
+@import 'animations';
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arimo', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 2rem auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+p {
+    text-align: center;
+    margin: 1rem 0;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    background-image: url(./images/nysl_logo.png);
+    background-size: cover;
+}
