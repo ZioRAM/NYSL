@@ -490,7 +490,7 @@
 }
 
 .container h2 {
-  color: #ffffff;
+  color: #a4ff4a;
   font-size: 1.5rem;
   text-align: center;
   line-height: 20px;
@@ -586,6 +586,9 @@
 }
 
 .container ul li input[type=checkbox] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: absolute;
   cursor: pointer;
   width: 100%;
