@@ -18,6 +18,7 @@
             }
         }
         .nav-links {
+            visibility: hidden;
             position: absolute;
             top: 0;
             left: 0;
@@ -35,6 +36,7 @@
              opacity .8s .1s,
              clip-path 1s .5s;
             clip-path: circle(200px at top-right);
+            
         
             .nav-link {
                 opacity: 0;
@@ -50,7 +52,9 @@
         }
 
         .menu-btn:checked ~ .nav-links {
+        
            opacity: 1;
+           visibility: visible;
            clip-path: circle(100% at center);
            
            .nav-link {

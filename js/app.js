@@ -10,3 +10,14 @@ window.addEventListener('scroll', () =>{
         header.classList.remove('scrolled');
     }
 })
+
+const navCheck = document.querySelector ('.menu-btn');
+const navLinks = document.querySelector ('.nav-links')
+
+
+// if(navCheck == "checked") {
+//     navLinks.style.display = "none"; 
+// }
+// else {
+//     navLinks.style.display = "";
+// }
