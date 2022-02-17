@@ -1,0 +1,126 @@
+.formy {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.2rem;
+    width: 100vw;
+
+    .stylized {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 0px;
+        margin-bottom: 15px;
+
+        input {
+            width: 70vw;
+            height: 36px;
+            font-size: 24px;
+            text-align: center;
+            color: #ffffff;
+            background-color: #053c4c;
+        }
+
+        label {
+            text-shadow: 0 1px 0px #053c4c, 1px 0 0px #053c4c, 1px 2px 1px #053c4c, 2px 1px 1px #053c4c, 2px 3px 2px #053c4c, 3px 2px 2px #053c4c, 3px 4px 2px #053c4c, 4px 3px 3px #053c4c, 4px 5px 3px #053c4c, 5px 4px 2px #053c4c, 5px 6px 2px #053c4c, 6px 5px 2px #053c4c, 6px 7px 1px #053c4c, 7px 6px 1px #053c4c, 7px 8px 0px #053c4c, 8px 7px 0px #053c4c, -5px 3px 6px rgba(61,175,44,0);
+            color: #a4ff4a;
+            font-size: 1.5rem;
+        }
+    }
+
+    .stylized1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 0px solid #ffffff;
+
+        input {
+            width: 70vw;
+            height: 36px;
+            font-size: 24px;
+            text-align: center;
+            color: #ffffff;
+            background-color: #053c4c;
+        }
+
+        label {
+            text-shadow: 0 1px 0px #053c4c, 1px 0 0px #053c4c, 1px 2px 1px #053c4c, 2px 1px 1px #053c4c, 2px 3px 2px #053c4c, 3px 2px 2px #053c4c, 3px 4px 2px #053c4c, 4px 3px 3px #053c4c, 4px 5px 3px #053c4c, 5px 4px 2px #053c4c, 5px 6px 2px #053c4c, 6px 5px 2px #053c4c, 6px 7px 1px #053c4c, 7px 6px 1px #053c4c, 7px 8px 0px #053c4c, 8px 7px 0px #053c4c, -5px 3px 6px rgba(61,175,44,0);
+            color: #a4ff4a;
+            font-size: 1.5rem;
+        }
+    }
+
+    .stylized2 {
+        padding-top: 5px;
+        display: flexbox;
+        flex-direction: row;
+        justify-content: space-between;
+        border: 2px solid #ffffff;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        
+        legend {
+            text-shadow: 0 1px 0px #053c4c, 1px 0 0px #053c4c, 1px 2px 1px #053c4c, 2px 1px 1px #053c4c, 2px 3px 2px #053c4c, 3px 2px 2px #053c4c, 3px 4px 2px #053c4c, 4px 3px 3px #053c4c, 4px 5px 3px #053c4c, 5px 4px 2px #053c4c, 5px 6px 2px #053c4c, 6px 5px 2px #053c4c, 6px 7px 1px #053c4c, 7px 6px 1px #053c4c, 7px 8px 0px #053c4c, 8px 7px 0px #053c4c, -5px 3px 6px rgba(61,175,44,0);
+            color: #ffffff;
+            margin-bottom: 2px;
+            font-weight: bolder;
+        }
+
+        label {
+            text-shadow: 0 1px 0px #053c4c, 1px 0 0px #053c4c, 1px 2px 1px #053c4c, 2px 1px 1px #053c4c, 2px 3px 2px #053c4c, 3px 2px 2px #053c4c, 3px 4px 2px #053c4c, 4px 3px 3px #053c4c, 4px 5px 3px #053c4c, 5px 4px 2px #053c4c, 5px 6px 2px #053c4c, 6px 5px 2px #053c4c, 6px 7px 1px #053c4c, 7px 6px 1px #053c4c, 7px 8px 0px #053c4c, 8px 7px 0px #053c4c, -5px 3px 6px rgba(61,175,44,0);
+            color: #a4ff4a;
+            font-size: 1.5rem;
+        }
+
+        input[type=radio] {
+            border: 0px;
+            width: 1.2rem;
+            height: 1.2rem;
+
+        }
+    }
+
+    .stylized3 {
+        display: flexbox;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #ffffff;
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+        legend {
+            text-shadow: 0 1px 0px #053c4c, 1px 0 0px #053c4c, 1px 2px 1px #053c4c, 2px 1px 1px #053c4c, 2px 3px 2px #053c4c, 3px 2px 2px #053c4c, 3px 4px 2px #053c4c, 4px 3px 3px #053c4c, 4px 5px 3px #053c4c, 5px 4px 2px #053c4c, 5px 6px 2px #053c4c, 6px 5px 2px #053c4c, 6px 7px 1px #053c4c, 7px 6px 1px #053c4c, 7px 8px 0px #053c4c, 8px 7px 0px #053c4c, -5px 3px 6px rgba(61,175,44,0);
+            color: #ffffff;
+            margin-bottom: 2px;
+            font-weight: bolder;
+        }
+    
+        label {
+            text-shadow: 0 1px 0px #053c4c, 1px 0 0px #053c4c, 1px 2px 1px #053c4c, 2px 1px 1px #053c4c, 2px 3px 2px #053c4c, 3px 2px 2px #053c4c, 3px 4px 2px #053c4c, 4px 3px 3px #053c4c, 4px 5px 3px #053c4c, 5px 4px 2px #053c4c, 5px 6px 2px #053c4c, 6px 5px 2px #053c4c, 6px 7px 1px #053c4c, 7px 6px 1px #053c4c, 7px 8px 0px #053c4c, 8px 7px 0px #053c4c, -5px 3px 6px rgba(61,175,44,0);
+            color: #a4ff4a;
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+
+        select {
+            height: 30px;
+            background-color: #053c4c;
+            color: #a4ff4a;
+        }
+    }
+
+    .enviar {
+
+        input {
+            height: 30px;
+            width: 100px;
+            border-radius: 30px;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            background-color: #053c4c;
+            color: #a4ff4a;
+        }
+    }
+}

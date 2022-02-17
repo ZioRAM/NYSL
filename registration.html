@@ -34,7 +34,7 @@
     <h1>Registration Form</h1>
   </div>    
   
-  <div id="bodycontent">
+  <div class="formy" id="bodycontent">
     <form method="get" action="show_data.html"> 
       <div class="stylized">
         <label for="first_name">Player's First Name:</label>
@@ -56,7 +56,8 @@
         <label for="contact_email">Contact Email:</label>
         <input type="text" name="contact_email" id="contact_email"/>
       </div>
-      <fieldset>
+
+      <fieldset class="stylized2">
         <legend>Gender:</legend>
         <label for="female">Female</label>
         <input type="radio" name="gender" id="female" value="female"/>
@@ -64,7 +65,7 @@
         <input type="radio" name="gender" id="male" value="male"/>
       </fieldset>
       
-      <fieldset>
+      <fieldset class="stylized2">
         <legend>Grade:</legend>
         <label for="pre_school">Pre-School</label>
         <input type="radio" name="grade" id="pre_school" value="pre_school"/>
@@ -80,7 +81,7 @@
         <input type="radio" name="grade" id="5th" value="5th"/>
       </fieldset>
       
-      <fieldset>
+      <fieldset class="stylized3">
         <legend>Which elementary schools do you live near?</legend>
         <label for="school_1" class="impinfo">First Closest School:</label>
         <select name="school_1" id="school_1">
@@ -103,34 +104,36 @@
         </select>
       </fieldset>
       
-      <fieldset>
+      <fieldset class="stylized2">
         <legend>What position(s) do you normally play? <span class="note">(check all that apply)</span></legend>
         <label for="n_forward">Forward</label>
-        <input type="checkbox" name="normal_position" id="n_forward" value="n_forward"/>
+        <input type="radio" name="normal_position" id="n_forward" value="n_forward"/>
         <label for="n_defense">Defense</label>
-        <input type="checkbox" name="normal_position" id="n_defense" value="n_defense"/>
+        <input type="radio" name="normal_position" id="n_defense" value="n_defense"/>
         <label for="n_midfield">Midfield</label>
-        <input type="checkbox" name="normal_position" id="n_midfield" value="n_midfield"/>
+        <input type="radio" name="normal_position" id="n_midfield" value="n_midfield"/>
         <label for="n_goalkeeper">Goalkeeper</label>
-        <input type="checkbox" name="normal_position" id="n_goalkeeper" value="n_goalkeeper"/>
+        <input type="radio" name="normal_position" id="n_goalkeeper" value="n_goalkeeper"/>
       </fieldset>
       
-      <fieldset>
+      <fieldset class="stylized2">
         <legend>What position(s) do you want to play? <span class="note">(check all that apply)</span></legend>
         <label for="w_forward">Forward</label>
-        <input type="checkbox" name="want_position" id="w_forward" value="w_forward"/>
+        <input type="radio" name="want_position" id="w_forward" value="w_forward"/>
         <label for="w_defense">Defense</label>
-        <input type="checkbox" name="want_position" id="w_defense" value="w_defense"/>
+        <input type="radio" name="want_position" id="w_defense" value="w_defense"/>
         <label for="w_midfield">Midfield</label>
-        <input type="checkbox" name="want_position" id="w_midfield" value="w_midfield"/>
+        <input type="radio" name="want_position" id="w_midfield" value="w_midfield"/>
         <label for="w_goalkeeper">Goalkeeper</label>
-        <input type="checkbox" name="want_position" id="w_goalkeeper" value="w_goalkeeper"/>
+        <input type="radio" name="want_position" id="w_goalkeeper" value="w_goalkeeper"/>
       </fieldset>
       
+      <fieldset class="stylized2">
         <label for="uniform" class="impinfo">Already Have a Uniform</label>
-        <input type="checkbox" name="uniform" id="uniform"/>
+        <input type="radio" name="uniform" id="uniform"/>
+      </fieldset>
       
-      <fieldset>
+      <fieldset class="stylized2">
         <legend>Jersey Size:</legend>
         <span class="uniformchoice">
           <label for="j_y_small">Youth Small</label>
@@ -150,7 +153,7 @@
         </span>
       </fieldset>
       
-      <fieldset>
+      <fieldset class="stylized2">
         <legend>Shorts Size:</legend>
         <span class="uniformchoice">
           <label for="s_y_small">Youth Small</label>
@@ -169,24 +172,35 @@
           <input type="radio" name="shorts_size" id="s_x_large" value="s_x_large"/>
         </span>
       </fieldset>
+       
+    <div class="container">
+      <ul class="aboutList">
+        <li>
+          <input type="checkbox" checked>
+          <i></i>
+          <h2>Permission to Play</h2>
+          <p>
+            I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the "League" accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the program and/or being transported to or from NYSL sponsored activities, which transportation.       
+          </p>
+          <p>
+            By entering my name below, I hereby agree and authorize the above. In addition, by entering my name below, I also acknowledge that I have read the cancellation policy and agree to its terms.
+          </p>
+        </li>
+      </ul> 
+    </div>   
       
-      <h3>Permission to Play</h3>
-      <div class="contract">
-        <p>
-          I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the "League" accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the program and/or being transported to or from NYSL sponsored activities, which transportation.       
-        </p>
-        <p>
-          By entering my name below, I hereby agree and authorize the above. In addition, by entering my name below, I also acknowledge that I have read the cancellation policy and agree to its terms.
-        </p>
-        <p>
+      <fieldset class="stylized1">
+        
           <label for="signature">Parent/Guardian Signature:</label>
           <input type="text" name="signature" id="signature"/>
           <label for="sig_date">Date:</label>
           <input type="text" name="sig_date" id="sig_date"/>
-        </p>
+        
+      </fieldset>  
+      <!-- </div> -->
+      <div class="enviar">
+          <input type="submit"/>
       </div>
-      <p><input type="submit"/></p>
-      
     </form>
   </div>
 </div>

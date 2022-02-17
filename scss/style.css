@@ -156,7 +156,7 @@
 
 .main-header.scrolled {
   height: 50px;
-  background: rgba(0, 70, 9, 0.9);
+  background: #053b4cf1;
   color: #fff;
 }
 
@@ -616,6 +616,159 @@
   -webkit-transition: .3s;
   transition: .3s;
   opacity: 0;
+}
+
+.formy {
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.2rem;
+  width: 100vw;
+}
+
+.formy .stylized {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 0px;
+  margin-bottom: 15px;
+}
+
+.formy .stylized input {
+  width: 70vw;
+  height: 36px;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #053c4c;
+}
+
+.formy .stylized label {
+  text-shadow: 0 1px 0px #053c4c, 1px 0 0px #053c4c, 1px 2px 1px #053c4c, 2px 1px 1px #053c4c, 2px 3px 2px #053c4c, 3px 2px 2px #053c4c, 3px 4px 2px #053c4c, 4px 3px 3px #053c4c, 4px 5px 3px #053c4c, 5px 4px 2px #053c4c, 5px 6px 2px #053c4c, 6px 5px 2px #053c4c, 6px 7px 1px #053c4c, 7px 6px 1px #053c4c, 7px 8px 0px #053c4c, 8px 7px 0px #053c4c, -5px 3px 6px rgba(61, 175, 44, 0);
+  color: #a4ff4a;
+  font-size: 1.5rem;
+}
+
+.formy .stylized1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 0px solid #ffffff;
+}
+
+.formy .stylized1 input {
+  width: 70vw;
+  height: 36px;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #053c4c;
+}
+
+.formy .stylized1 label {
+  text-shadow: 0 1px 0px #053c4c, 1px 0 0px #053c4c, 1px 2px 1px #053c4c, 2px 1px 1px #053c4c, 2px 3px 2px #053c4c, 3px 2px 2px #053c4c, 3px 4px 2px #053c4c, 4px 3px 3px #053c4c, 4px 5px 3px #053c4c, 5px 4px 2px #053c4c, 5px 6px 2px #053c4c, 6px 5px 2px #053c4c, 6px 7px 1px #053c4c, 7px 6px 1px #053c4c, 7px 8px 0px #053c4c, 8px 7px 0px #053c4c, -5px 3px 6px rgba(61, 175, 44, 0);
+  color: #a4ff4a;
+  font-size: 1.5rem;
+}
+
+.formy .stylized2 {
+  padding-top: 5px;
+  display: flexbox;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 2px solid #ffffff;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.formy .stylized2 legend {
+  text-shadow: 0 1px 0px #053c4c, 1px 0 0px #053c4c, 1px 2px 1px #053c4c, 2px 1px 1px #053c4c, 2px 3px 2px #053c4c, 3px 2px 2px #053c4c, 3px 4px 2px #053c4c, 4px 3px 3px #053c4c, 4px 5px 3px #053c4c, 5px 4px 2px #053c4c, 5px 6px 2px #053c4c, 6px 5px 2px #053c4c, 6px 7px 1px #053c4c, 7px 6px 1px #053c4c, 7px 8px 0px #053c4c, 8px 7px 0px #053c4c, -5px 3px 6px rgba(61, 175, 44, 0);
+  color: #ffffff;
+  margin-bottom: 2px;
+  font-weight: bolder;
+}
+
+.formy .stylized2 label {
+  text-shadow: 0 1px 0px #053c4c, 1px 0 0px #053c4c, 1px 2px 1px #053c4c, 2px 1px 1px #053c4c, 2px 3px 2px #053c4c, 3px 2px 2px #053c4c, 3px 4px 2px #053c4c, 4px 3px 3px #053c4c, 4px 5px 3px #053c4c, 5px 4px 2px #053c4c, 5px 6px 2px #053c4c, 6px 5px 2px #053c4c, 6px 7px 1px #053c4c, 7px 6px 1px #053c4c, 7px 8px 0px #053c4c, 8px 7px 0px #053c4c, -5px 3px 6px rgba(61, 175, 44, 0);
+  color: #a4ff4a;
+  font-size: 1.5rem;
+}
+
+.formy .stylized2 input[type=radio] {
+  border: 0px;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.formy .stylized3 {
+  display: flexbox;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 2px solid #ffffff;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.formy .stylized3 legend {
+  text-shadow: 0 1px 0px #053c4c, 1px 0 0px #053c4c, 1px 2px 1px #053c4c, 2px 1px 1px #053c4c, 2px 3px 2px #053c4c, 3px 2px 2px #053c4c, 3px 4px 2px #053c4c, 4px 3px 3px #053c4c, 4px 5px 3px #053c4c, 5px 4px 2px #053c4c, 5px 6px 2px #053c4c, 6px 5px 2px #053c4c, 6px 7px 1px #053c4c, 7px 6px 1px #053c4c, 7px 8px 0px #053c4c, 8px 7px 0px #053c4c, -5px 3px 6px rgba(61, 175, 44, 0);
+  color: #ffffff;
+  margin-bottom: 2px;
+  font-weight: bolder;
+}
+
+.formy .stylized3 label {
+  text-shadow: 0 1px 0px #053c4c, 1px 0 0px #053c4c, 1px 2px 1px #053c4c, 2px 1px 1px #053c4c, 2px 3px 2px #053c4c, 3px 2px 2px #053c4c, 3px 4px 2px #053c4c, 4px 3px 3px #053c4c, 4px 5px 3px #053c4c, 5px 4px 2px #053c4c, 5px 6px 2px #053c4c, 6px 5px 2px #053c4c, 6px 7px 1px #053c4c, 7px 6px 1px #053c4c, 7px 8px 0px #053c4c, 8px 7px 0px #053c4c, -5px 3px 6px rgba(61, 175, 44, 0);
+  color: #a4ff4a;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.formy .stylized3 select {
+  height: 30px;
+  background-color: #053c4c;
+  color: #a4ff4a;
+}
+
+.formy .enviar input {
+  height: 30px;
+  width: 100px;
+  border-radius: 30px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  background-color: #053c4c;
+  color: #a4ff4a;
 }
 
 *, *::before, *::after {
