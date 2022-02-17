@@ -1,0 +1,56 @@
+
+#conteItemsCarrusel {
+    height: 400px;
+    overflow: hidden;
+    border-radius: 30px;
+    text-align: center;
+
+
+        .itemCarrusel {
+            height: 100%;
+            position: relative;
+            color: #a4ff4a;
+            font-weight: bolder;
+            font-size: 1.5rem;
+            
+
+            .tarjetaCarrusel {
+                background-color: #053b4cde;    
+                height: 100%;
+                
+
+                .textCarrusel {
+                    color: #ffffff;
+                    padding-top: 10px;
+                }
+            }
+
+            .flechasCarrusel { 
+                position: absolute; 
+                top: 0;  
+                height: 100%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                
+            }
+        }
+
+        a {
+            height: 100%;
+            width: 150px;
+            text-decoration: none;
+            text-shadow: 0 1px 0px #053c4c, 1px 0 0px #053c4c, 1px 2px 1px #053c4c, 2px 1px 1px #053c4c, 2px 3px 2px #053c4c, 3px 2px 2px #053c4c, 3px 4px 2px #053c4c, 4px 3px 3px #053c4c, 4px 5px 3px #053c4c, 5px 4px 2px #053c4c, 5px 6px 2px #053c4c, 6px 5px 2px #053c4c, 6px 7px 1px #053c4c, 7px 6px 1px #053c4c, 7px 8px 0px #053c4c, 8px 7px 0px #053c4c, -5px 3px 6px rgba(61,175,44,0);
+            color: #a4ff4a;
+            
+        }
+
+        i {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            font-weight: bolder;
+        }
+}        
