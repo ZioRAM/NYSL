@@ -1,3 +1,11 @@
+*, *::before, *::after {
+    font-family: 'Arimo';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
 @import 'title';
 @import 'header';
@@ -7,14 +15,12 @@
 @import 'formulary';
 @import 'carrusel';
 
-*, *::before, *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+html {
+    margin: 0px !important;
 }
 
 body {
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Arimo';
     background: url(../scss/images/design1_image1.png) no-repeat
     bottom right;
     background-size: cover;
@@ -26,6 +32,7 @@ p {
     text-align: center;
     margin: 1rem 0;
 }
+
 .logo {
     width: 48px;
     height: 48px;
