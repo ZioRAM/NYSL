@@ -234,9 +234,6 @@
     display: block;
     padding: 2rem 0;
   }
-  .main-header .menu-btn:checked ~ #carouselExampleControls {
-    display: none;
-  }
   .main-header .menu-btn:checked ~ .nav-links {
     opacity: 1;
     visibility: visible;
@@ -822,6 +819,53 @@
   text-decoration: none;
   text-shadow: 0 1px 0px #053c4c, 1px 0 0px #053c4c, 1px 2px 1px #053c4c, 2px 1px 1px #053c4c, 2px 3px 2px #053c4c, 3px 2px 2px #053c4c, 3px 4px 2px #053c4c, 4px 3px 3px #053c4c, 4px 5px 3px #053c4c, 5px 4px 2px #053c4c, 5px 6px 2px #053c4c, 6px 5px 2px #053c4c, 6px 7px 1px #053c4c, 7px 6px 1px #053c4c, 7px 8px 0px #053c4c, 8px 7px 0px #053c4c, -5px 3px 6px rgba(61, 175, 44, 0);
   color: #a4ff4a;
+}
+
+#infotable {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#infotable h3 {
+  color: #ffffff;
+  text-shadow: 0 1px 0px #053c4c, 1px 0 0px #053c4c, 1px 2px 1px #053c4c, 2px 1px 1px #053c4c, 2px 3px 2px #053c4c, 3px 2px 2px #053c4c, 3px 4px 2px #053c4c, 4px 3px 3px #053c4c, 4px 5px 3px #053c4c, 5px 4px 2px #053c4c, 5px 6px 2px #053c4c, 6px 5px 2px #053c4c, 6px 7px 1px #053c4c, 7px 6px 1px #053c4c, 7px 8px 0px #053c4c, 8px 7px 0px #053c4c, -5px 3px 6px rgba(61, 175, 44, 0);
+}
+
+#infotable table {
+  border-radius: 30px;
+  background-color: #053b4cd2;
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+#infotable table th, #infotable table td {
+  padding: 20px;
+}
+
+#infotable table a {
+  color: #a4ff4a;
+}
+
+#bodycontent h2 {
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 1px 0px #053c4c, 1px 0 0px #053c4c, 1px 2px 1px #053c4c, 2px 1px 1px #053c4c, 2px 3px 2px #053c4c, 3px 2px 2px #053c4c, 3px 4px 2px #053c4c, 4px 3px 3px #053c4c, 4px 5px 3px #053c4c, 5px 4px 2px #053c4c, 5px 6px 2px #053c4c, 6px 5px 2px #053c4c, 6px 7px 1px #053c4c, 7px 6px 1px #053c4c, 7px 8px 0px #053c4c, 8px 7px 0px #053c4c, -5px 3px 6px rgba(61, 175, 44, 0);
+}
+
+#bodycontent p {
+  color: #ffffff;
+  text-shadow: 0 1px 0px #053c4c, 1px 0 0px #053c4c, 1px 2px 1px #053c4c, 2px 1px 1px #053c4c, 2px 3px 2px #053c4c, 3px 2px 2px #053c4c, 3px 4px 2px #053c4c, 4px 3px 3px #053c4c, 4px 5px 3px #053c4c, 5px 4px 2px #053c4c, 5px 6px 2px #053c4c, 6px 5px 2px #053c4c, 6px 7px 1px #053c4c, 7px 6px 1px #053c4c, 7px 8px 0px #053c4c, 8px 7px 0px #053c4c, -5px 3px 6px rgba(61, 175, 44, 0);
 }
 
 html {
