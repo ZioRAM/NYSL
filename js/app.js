@@ -9,8 +9,7 @@ window.addEventListener('scroll', () =>{
     else {
         header.classList.remove('scrolled');
     }
-})
-
+});
 
 data[0].games.forEach(element => {
     let tr = document.createElement("tr");
@@ -29,3 +28,4 @@ data[1].games.forEach(element => {
         <td>${element.times}</td>`;
     document.getElementById("tbody2").appendChild(tr);
 });
+

@@ -1,10 +1,3 @@
-*, *::before, *::after {
-    font-family: 'Arimo';
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
 @import 'title';
@@ -14,6 +7,15 @@
 @import 'acordion';
 @import 'formulary';
 @import 'carrusel';
+@import 'media2';
+
+*, *::before, *::after {
+    font-family: 'Arimo';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
 
 html {
     margin: 0px !important;
@@ -38,4 +40,8 @@ p {
     height: 48px;
     background-image: url(./images/nysl_logo.png);
     background-size: cover;
+}
+
+#carouselExampleFade {
+    z-index: 0 !important;
 }

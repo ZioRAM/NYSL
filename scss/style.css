@@ -1,14 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
-*, *::before, *::after {
-  font-family: 'Arimo';
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .title {
-  height: 30vh;
+  height: 20vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -233,6 +225,9 @@
     color: #fff;
     display: block;
     padding: 2rem 0;
+  }
+  .main-header .nav-links .nav-link a:hover {
+    color: #a4ff4a;
   }
   .main-header .menu-btn:checked ~ .nav-links {
     opacity: 1;
@@ -786,41 +781,6 @@
   color: #a4ff4a;
 }
 
-.tarjetaCarrusel {
-  background-color: #053b4cde;
-  height: 100%;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  color: #a4ff4a;
-  border-radius: 50px;
-  font-weight: bolder;
-}
-
-.tarjetaCarrusel .textCarrusel {
-  color: #ffffff;
-  padding-top: 10px;
-  text-align: center;
-}
-
-.tarjetaCarrusel a {
-  text-decoration: none;
-  text-shadow: 0 1px 0px #053c4c, 1px 0 0px #053c4c, 1px 2px 1px #053c4c, 2px 1px 1px #053c4c, 2px 3px 2px #053c4c, 3px 2px 2px #053c4c, 3px 4px 2px #053c4c, 4px 3px 3px #053c4c, 4px 5px 3px #053c4c, 5px 4px 2px #053c4c, 5px 6px 2px #053c4c, 6px 5px 2px #053c4c, 6px 7px 1px #053c4c, 7px 6px 1px #053c4c, 7px 8px 0px #053c4c, 8px 7px 0px #053c4c, -5px 3px 6px rgba(61, 175, 44, 0);
-  color: #a4ff4a;
-}
-
 #infotable {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -868,6 +828,75 @@
   text-shadow: 0 1px 0px #053c4c, 1px 0 0px #053c4c, 1px 2px 1px #053c4c, 2px 1px 1px #053c4c, 2px 3px 2px #053c4c, 3px 2px 2px #053c4c, 3px 4px 2px #053c4c, 4px 3px 3px #053c4c, 4px 5px 3px #053c4c, 5px 4px 2px #053c4c, 5px 6px 2px #053c4c, 6px 5px 2px #053c4c, 6px 7px 1px #053c4c, 7px 6px 1px #053c4c, 7px 8px 0px #053c4c, 8px 7px 0px #053c4c, -5px 3px 6px rgba(61, 175, 44, 0);
 }
 
+#contentls {
+  display: none;
+}
+
+@media (orientation: landscape) {
+  #bodycontent {
+    display: none;
+  }
+  #contentls {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  #contentls h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 1px 0px #053c4c, 1px 0 0px #053c4c, 1px 2px 1px #053c4c, 2px 1px 1px #053c4c, 2px 3px 2px #053c4c, 3px 2px 2px #053c4c, 3px 4px 2px #053c4c, 4px 3px 3px #053c4c, 4px 5px 3px #053c4c, 5px 4px 2px #053c4c, 5px 6px 2px #053c4c, 6px 5px 2px #053c4c, 6px 7px 1px #053c4c, 7px 6px 1px #053c4c, 7px 8px 0px #053c4c, 8px 7px 0px #053c4c, -5px 3px 6px rgba(61, 175, 44, 0);
+  }
+  #contentls p {
+    margin: 1px;
+    color: #ffffff;
+    text-shadow: 0 1px 0px #053c4c, 1px 0 0px #053c4c, 1px 2px 1px #053c4c, 2px 1px 1px #053c4c, 2px 3px 2px #053c4c, 3px 2px 2px #053c4c, 3px 4px 2px #053c4c, 4px 3px 3px #053c4c, 4px 5px 3px #053c4c, 5px 4px 2px #053c4c, 5px 6px 2px #053c4c, 6px 5px 2px #053c4c, 6px 7px 1px #053c4c, 7px 6px 1px #053c4c, 7px 8px 0px #053c4c, 8px 7px 0px #053c4c, -5px 3px 6px rgba(61, 175, 44, 0);
+  }
+  #contentls .partidos {
+    padding: 10px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: #053b4cca;
+    border-radius: 30px;
+  }
+  #contentls .partidos .carousel-item {
+    padding-left: 11%;
+    width: 99vw;
+  }
+  #contentls .partidos .carousel-item #botones .boton, #contentls .partidos .carousel-item #botones2 .boton {
+    border-color: #a4ff4a;
+    height: 3rem;
+    width: 6rem;
+    background-color: #053c4c;
+    color: #a4ff4a;
+  }
+  #contentls .partidos .carousel-control-next, #contentls .partidos .carousel-control-prev {
+    width: 10%;
+  }
+}
+
+*, *::before, *::after {
+  font-family: 'Arimo';
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 html {
   margin: 0px !important;
 }
@@ -889,5 +918,9 @@ p {
   height: 48px;
   background-image: url(./images/nysl_logo.png);
   background-size: cover;
+}
+
+#carouselExampleFade {
+  z-index: 0 !important;
 }
 /*# sourceMappingURL=style.css.map */

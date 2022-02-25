@@ -48,15 +48,18 @@
                     color: #fff;
                     display: block;
                     padding: 2rem 0;
+
+                }
+                a:hover {
+                    color: #a4ff4a;
                 }
             }
         }
-
         .menu-btn:checked ~ .nav-links {
-            
            opacity: 1;
            visibility: visible;
-           clip-path: circle(100% at center);   
+           clip-path: circle(100% at center);
+            
         
            .nav-link {
                opacity: 1;
